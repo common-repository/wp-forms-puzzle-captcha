@@ -1,0 +1,99 @@
+body {
+    position: relative;
+}
+.wfpc-text-left{
+    text-align: left;
+}
+
+.wfpc-text-right{
+    text-align: right;
+}
+
+.wfpc-activate-tooltip{
+    display: none;
+    top: 0px;
+    left: 200px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.wfpc-activate-tooltip .wfpc-tooltip-content{
+    width: 350px;
+    border-radius: 5px;
+    position: relative;
+    font-family: inherit;
+    background: #fff;
+    color: #444;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+
+}
+
+.wfpc-activate-tooltip .wfpc-tooltip-header{
+    padding: 10px;
+    background-color: #3A99FC;
+}
+
+.wfpc-tooltip-innercontent{
+    padding-left:10px;
+}
+
+.wfpc-tooltip-innercontent p{
+    font-size: 16px;
+}
+
+.wfpc-tooltip-footer{
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.wfpc-activate-tooltip .wfpc-tooltip-header h3{
+    color: #fff;
+}
+
+.wfpc-tooltip-content:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-width: 16px;
+    border-style: solid;
+    pointer-events: none;
+    top: 100%;
+    left: 15%;
+    margin-left: -16px;
+    border-top-color: #fff;
+}
+
+.wfpc_header_wizard{
+    width: 50%;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 15px;
+    position: relative;
+    margin: 15px;
+}
+
+.wfpc_header_wizard p {
+    font-size: 16px;
+    color: #444;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.wfpc_relative {
+	position: relative;
+	display: inline-block;
+}
+
+.wpfc_delete_btn {
+	position: absolute;
+	top: -15px;
+	color: #000;
+	z-index: 4;
+	right: 0;
+}
